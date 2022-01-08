@@ -9,4 +9,6 @@
     ```
     ./sec-largest.sh
     ```
+#### output will be similar like below.
 
+![output](./images/bash-output.png)
