@@ -33,4 +33,9 @@
 
 6. After terraform all steps finished, can access with ***aws application loadbalancer's DNS Name*** and traffic will be going through **round robin** to app0 and app1 instances.
 
+Note.
+1. There will be 3 total subnets in vpc and aws application loadbalancer is require 2 minimum subnets to attach.
+
+2.  The load balancer will not route requests to target if public and private subnets are exist in diffenent availability zones.
+
 
